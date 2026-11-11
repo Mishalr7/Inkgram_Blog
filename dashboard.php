@@ -106,6 +106,7 @@ s            <td class="text-muted text-sm"><?= fmt_date($p['created_at']) ?></t
     <div class="modal__actions">
       <button class="btn btn-ghost" onclick="document.getElementById('del-modal').classList.remove('open')">Cancel</button>
       <form id="m-form" method="POST" style="display:inline">
+        <?= csrf_field() ?>
         <input type="hidden" name="id" id="m-id">
         <button type="submit" class="btn btn-danger" id="m-btn"></button>
       </form>
