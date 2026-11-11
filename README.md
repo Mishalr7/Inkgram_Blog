@@ -15,9 +15,8 @@
 ### Demo Accounts
 | Role | Username | Password |
 |---|---|---|
-| **Admin** | `admin` | `password` |
-| **Writer** | `eleanor_writes` | `password` |
-| **Writer** | `marcus_quill` | `password` |
+| **User** | `demo` | `demo1234` |
+
 
 ---
 
